@@ -1,0 +1,101 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   
+    height: 100%;
+    width: 100% ;
+    background-color: black;
+    position: relative;
+}
+
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 43%;
+    left: 42%;
+}
+
+.a{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 43%;
+    left: 42%;
+    animation-name: bf;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bf {
+    from{
+        transform: rotate(0deg) translate(320px) ;
+    }
+
+    to{
+        transform: rotate(360deg) translate(320px) ;
+    }
+}
+.b{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    top: 43%;
+    left: 42%;
+     animation-name: bb;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bb {
+    from{
+        transform: rotate(0deg) translate(220px) ;
+    }
+
+    to{
+        transform: rotate(360deg) translate(220px) ;
+    }
+}
+.c{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    top: 43%;
+    left: 42%;
+     animation-name: cc;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cc {
+    from{
+        transform: rotate(0deg) translate(120px) ;
+    }
+
+    to{
+        transform: rotate(360deg) translate(120px) ;
+    }
+}

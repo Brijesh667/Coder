@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+.flag{
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    margin:auto;
+    margin-top: 20vh;
+    border-radius: 50%;
+    
+}

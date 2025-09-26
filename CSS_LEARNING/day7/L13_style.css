@@ -1,0 +1,42 @@
+/* h1{
+    color: orange;
+    background-color: aqua;
+    text-align: center;
+    text-align: justify ;
+}
+
+.container{
+    background-color: rgb(124, 225, 225);
+    text-align: center;
+    
+}
+
+.container >h2{
+    background-color: yellow;
+}
+.container >h3 {
+    background-color: red;
+}
+.container> button{
+    background-color: green;
+} */
+
+/* p{
+    background-color: aquamarine;
+    text-align-last: justify;
+    text-align: justify;
+} */
+
+h1{
+  
+    /* text-align: left; */
+    /* direction: ltr; */
+
+    text-align: right;
+    direction: rtl;
+    unicode-bidi:bidi-override;
+}
+
+span{
+    vertical-align:baseline;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+}
+header{
+   
+    background-color: aliceblue;
+    color: aqua;
+    position: fixed;
+    
+    margin: 0;
+    width: 100vw;
+}
+main{
+    padding-top: 60px;
+}

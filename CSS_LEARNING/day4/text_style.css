@@ -1,0 +1,36 @@
+.d5{
+    display: inline-block;
+    position: relative;
+    margin: 400px;
+    width: 190px;
+    height: 70px;
+}
+
+.img2{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(202, 201, 201);
+    
+}
+.dining_image{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+
+}
+
+.text{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+  
+}
+.text2{
+    margin: auto;
+    padding-left: 5px;
+}

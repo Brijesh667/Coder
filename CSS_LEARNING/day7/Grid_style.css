@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+   
+    height: 500px;
+    width: 500px;
+    background-color: rgb(136, 122, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    gap: 1px;
+}
+
+.box{
+    background-color: orange;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.header,.footer{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.c1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

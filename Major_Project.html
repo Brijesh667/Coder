@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure and Algorithms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header, footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .video-container iframe {
+            flex: 1 1 300px;
+            height: 200px;
+            border: none;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programming Foundation in C++</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>1. Introduction to C++</h2>
+            <p>C++ is a powerful general-purpose programming language created by Bjarne Stroustrup as an extension of the C language. It supports both procedural and object-oriented programming.</p>
+
+            <h3>Why Learn C++?</h3>
+            <ul>
+                <li>Fast and efficient</li>
+                <li>Used in system/software development, game development, and competitive programming</li>
+                <li>Strong foundation for learning DSA</li>
+            </ul>
+
+            <h2>2. Setting Up the Environment</h2>
+            <p>To write and run C++ programs, you'll need:</p>
+            <ol>
+                <li><b>Text Editor or IDE:</b> Code::Blocks, Visual Studio, or online compilers like:
+                    <ul>
+                        <li><a href="https://ide.geeksforgeeks.org" target="_blank">GeeksforGeeks IDE</a></li>
+                        <li><a href="https://www.onlinegdb.com/online_c++_compiler" target="_blank">OnlineGDB</a></li>
+                        <li><a href="https://replit.com/languages/cpp" target="_blank">Replit</a></li>
+                        <li><a href="https://www.programiz.com/cpp-programming/online-compiler/" target="_blank">Programiz</a></li>
+                    </ul>
+                </li>
+                <li>Compiler: g++ (part of GCC)</li>
+            </ol>
+
+            <p><b>Example Setup on Windows:</b></p>
+            <ol>
+                <li>Install Code::Blocks with MinGW.</li>
+                <li>Open Code::Blocks, create a new project.</li>
+                <li>Write code, build, and run.</li>
+            </ol>
+
+            <h3>YouTube Video for Setup:</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/9VE7p-he4fA" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bN6DE-4uFNo" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/KYxLEDF6kjs" allowfullscreen></iframe>
+            </div>
+            <p>Visit <a href="https://youtube.com" target="_blank">YouTube</a> for more setup videos.</p>
+        </section>
+
+        <section>
+            <h2>3. Basic Syntax and Structure</h2>
+            <pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, World!";
+    return 0;
+}
+</code></pre>
+
+            <p><b>Explanation:</b></p>
+            <ul>
+                <li><b>#include &lt;iostream&gt;:</b> Includes the input-output stream header file.</li>
+                <li><b>main():</b> Entry point of the program.</li>
+                <li><b>cout:</b> Used to display output.</li>
+                <li><b>return 0;</b> Indicates successful execution.</li>
+            </ul>
+
+            <h2>4. Data Types and Variables</h2>
+            <ul>
+                <li><b>int:</b> Integers (e.g., 10, -2)</li>
+                <li><b>float:</b> Floating-point numbers (e.g., 3.14)</li>
+                <li><b>double:</b> Double precision floating-point</li>
+                <li><b>char:</b> Single character</li>
+                <li><b>bool:</b> Boolean (true or false)</li>
+            </ul>
+            <p><b>Example:</b></p>
+            <pre><code>int age = 20;
+float pi = 3.14;
+char grade = 'A';
+bool passed = true;</code></pre>
+
+            <h2>5. Input and Output</h2>
+            <p><b>Input:</b> In C++, we use <b>cin</b> for input.</p>
+            <p><b>Output:</b> In C++, we use <b>cout</b> for output.</p>
+            <p><b>Example:</b></p>
+            <pre><code>int a;
+cout &lt;&lt; "Enter a number: ";
+cin &gt;&gt; a;
+cout &lt;&lt; "You entered: " &lt;&lt; a;</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Learn DSA Free | Powered by Your YouTube Channel</p>
+    </footer>
+</body>
+</html>

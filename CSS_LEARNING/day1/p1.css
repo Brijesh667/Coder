@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+  background-color: #ebebeb;
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout: Header, Footer, Main */
+header {
+  background-color: rgb(17, 193, 17);
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: white;
+}
+
+#id1 {
+  color: rgb(223, 223, 13);
+}
+
+#id2 {
+  color: rgb(99, 99, 252);
+}
+
+#id3, #id5 {
+  color: rgb(250, 159, 174);
+}
+
+#id4 {
+  color: rgb(243, 87, 59);
+}
+
+#id6 {
+  color: blueviolet;
+}
+
+/* Article Styling */
+article {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  text-align: left;
+}

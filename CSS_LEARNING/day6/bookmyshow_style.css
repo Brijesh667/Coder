@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d72e2e;
+    align-items: baseline;
+    align-items: center;
+    padding: 2rem;
+
+}
+.left{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin-left: 1rem;
+    background-color: #d72e2e;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+.search{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 177, 177);
+}
+.inputbutton{
+    width: 400px;
+    max-width: 50%;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+
+}
+.search > button{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    background-color: #d72e2e;
+    color: white;
+    padding: .5rem;
+
+
+}
+.hero{
+    
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image1.png);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hero >button{
+    background-color: #d72e2e;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 10px;
+    
+}
+
+.hero >h2{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: .3rem;
+    border-radius: 5px;
+}
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mover > h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.imag{
+    border-radius: 1rem;
+}
+.card > h2, h3{
+    text-align: center;
+}
+.card>h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card>h3{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+@media (min-width:350px) and (max-width:600px)
+{
+    .mover{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+}
+
+.bot{ 
+  display: flex;
+  width: 800px;
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+  

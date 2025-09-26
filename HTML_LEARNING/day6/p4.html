@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT-JEE Registration</title>
+</head>
+<body>
+   
+   <form >
+    <fieldset>
+        <legend><b>IIT JEE Registration Form</b></legend>
+        <label for="User_name">Full Name: </label>
+        <input type="text" id="User_name" name="User-name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="Email">Email: </label>
+        <input type="email" name="User-Email" id="Email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="Phone">Phone: </label>
+        <input type="tel" name="mobile-number" id="Phone" placeholder="Enter 10 digit mobile number" required>
+        <br><br>
+        <label for="Password">Password: </label>
+        <input type="password" id="Password" name="Form-Password" placeholder="use strong password" required>
+        <br><br>
+        <label>Gender: </label>
+        <input type="radio" name="Gender" value="Male" id="Male" required>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" id="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" value="Other" id="Other">
+        <label for="Other">Other</label>
+        <br><br>
+        <label for="Date">Date Of Birth: </label>
+        <input type="date" name="date_of_birth" id="Date" min="1970-01-01" max="2010-01-01" required>
+        <br><br>
+        <label for="File">Image: </label>
+        <input type="file" name="User-Photo" id="File" accept="image/*" required>
+        <br><br>
+        <label for="School">School Name: </label>
+        <input type="text" name="School-name" id="School"  placeholder="Enter school name" required>
+        <br><br>
+        <label for="board">Select Board: </label>
+        <select name="Board Name" id="board" required>
+            <option disabled selected >-----Select Your Board-----</option>
+            <option value="UP Board">UP Board</option>
+            <option value="MP Board">MP Board</option>
+            <option value="CBSE Board">CBSE Board</option>
+            <option value="Bihar Board">Bihar Board</option>
+            <option value="ICSE Board">ICSE Board</option>
+        </select>
+        <br><br>
+        <label for="year">Select Year:</label>
+        <select id="year" name="year" required>
+        <option disabled selected>--Select Year--</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        </select>
+        <br><br>
+        <label for="Exam">Exam Center: </label>
+        <select name="Exam Center" id="Exam" required>
+            <option disabled selected>-----Select Exam Center-----</option>
+            <option value="Chaundausi">Chaundausi</option>
+            <option value="Muradabad">Muraddabad</option>
+            <option value="Badaun">Badaun</option>
+            <option value="Behjoi">Behjoi</option>
+            <option value="Bisuali">Bisuali</option>
+        </select>
+        <br><br>
+        <button type="submit">Register</button>
+      </fieldset>
+   </form>
+</body>
+</html>

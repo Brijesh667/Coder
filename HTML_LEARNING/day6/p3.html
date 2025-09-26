@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee form</title>
+</head>
+<body>
+    <h1>Employee Details Form</h1>
+    <form action="">
+        <label for="name">Your Name: </label>
+        <input type="text" id="name" name="emp_name" placeholder="Enter your name" required>
+        <br><br>
+        <label for="emial_id">Your Email: </label>
+        <input type="email" id="emial_id" name="emp_email" placeholder="Enter your email address" required>
+        <br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" pattern="[0-9]{10}" id="phone" name="Mobile_number" placeholder="Enter your mobile number">
+        <br><br>
+        <label >Gender: </label>
+        <input type="radio" name="Gender" value="Male" required id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" required id="FeMale">
+        <label for="Female">Male</label>
+        <input type="radio" name="Gender" value="Other" required id="Other">
+        <label for="Other">Male</label>
+
+        <br><br>
+        <label for="Job_Title">Job Title: </label>
+        <input type="text" id="Job_Title" name="Job_title" placeholder="Enter job title">
+        <br><br>
+        <label for="Department">Department: </label>
+        <select name="Department" id="Department">
+            <option disabled selected>-----Select Your Department-----</option>
+            <option value="Inoformation Technology">Inoformation Technology</option>
+            <option value="Electronics and Communication">Electronics</option>
+            <option value="Machanical ">Machanical</option>
+            <option value="Chemical">Chemical</option>
+            <option value="Civil">Civil</option>
+        </select>
+        <br><br>
+        <button type="submit">submit</button>
+        
+    </form>
+</body>
+</html>

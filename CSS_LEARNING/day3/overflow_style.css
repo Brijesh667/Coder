@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    background-color: rgb(217, 226, 234);
+}
+#id1{
+    
+    text-align: center;
+    background-color: white;
+    margin-top: 200px;
+}
+div{
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: auto;
+    
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+
+    /* Default overflow is visible */
+}

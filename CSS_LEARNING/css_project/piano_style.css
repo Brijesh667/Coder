@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    position: relative;
+    height: 100vh;
+    width: 1083px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2{
+    background-color: wheat;
+    height: 350px;
+    width: 1083px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 30px 1000px;
+    grid-template-rows: 350px 1000px;
+    border-right: 1px solid black;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.controlpannel{
+    display: grid;
+    background-color: #898989;
+    width: 100%;
+    height: 320px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.menu{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    background-color: inherit;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition-property: all;
+    transition-duration: .03s;
+    transition-timing-function: linear;
+    
+}
+
+.button{
+    height: 30px;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    background-color: white;
+    color: #363636;
+    cursor: pointer;
+}
+
+.exit{
+    margin-left: 10px;
+    
+}
+.padel{
+    margin-left: 50px;
+}
+
+.setting{
+    margin-left: 730px;
+}
+.looppvolume{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    height: 60px;
+    width: 160px;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.lvolp{
+    margin-left: 40px;
+}
+.lvolm{
+    margin-left: 70px;
+}
+.tonepvolume{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    height: 60px;
+    width: 160px;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.tvolp{
+    margin-left: 95px;
+}
+.tvolm{
+    margin-left: 70px;
+}
+.text1{
+    margin-left: 50px;
+}
+.text2{
+    margin-left: 100px;
+}
+.display{
+    display: grid;
+    width: 300px;
+    height: 200px;
+    background-color: inherit; 
+    border-radius: 25px;
+    border: 10px solid black;
+    grid-column: 2/3;
+    grid-row: 2/6;
+
+}
+.d1{
+    color: rgb(73, 236, 64);
+    font-size: 15px;
+    font-weight: bold;
+}
+.d2{
+    color: rgb(205, 19, 90);
+    font-size: 15px;
+    font-weight: bold;
+}
+.dtone{
+    height: 100%;
+    width: 150x;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #898989;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.dloop{
+    height: 100%;
+    width: 150x;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.dbutton{
+    background-color: #9c9c9c;
+    height:30px;
+    width: 100px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    color: #363636;
+    cursor: pointer;
+}
+.loopchange{
+    grid-row: 3/5;
+    grid-column: 1/2;
+    background-color: inherit;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 0px;
+    margin-left: 10px;
+    justify-content: center;
+}
+.loop{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    margin-top: 25px;
+}
+.button1{
+    height: 30px;
+    width: 50px;
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+    margin:2px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    background-color: white;
+    color: #363636;
+    font-size: 15px;
+}
+.tonechange{
+    grid-row: 3/5;
+    grid-column: 3/4;
+   
+    width: 200px;
+    background-color: inherit;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 5px;    
+    
+}
+.tone{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    margin-top: 35px;
+}
+.button2{
+    height: 40px;
+    width: 40px;
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+    margin:2px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    background-color: white;
+    color: #363636;
+    cursor: pointer;
+}
+
+.start{
+    grid-row:5/6;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    margin-top: 0px;
+    position: absolute;
+    top: 310px;
+    left: 470px;
+
+}
+.button_start{
+    height: 30px;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(32, 32, 32);
+    background-color: white;
+    color: #363636;
+    cursor: pointer;
+}
+
+.cover{
+   grid-column: 1/14;
+   grid-row: 1/2;
+   position: absolute;
+   height:30px;
+   width: 100%;
+   background-color: black;
+   top: 0px;
+   z-index: 10;
+
+}
+
+.white{
+    background-color: white;
+    height: 100%;
+    border: .5px solid black;
+    border-right: none;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: linear;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.white:active{
+  transform: translate(0px,10px);
+}
+.black:active{
+  transform: translate(0px,10px);
+}
+
+.black
+{
+    position: absolute;
+    width: 60px;
+    height: 245px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:8px 8px 5px rgb(132, 129, 129);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.b7{
+    top: 0px;
+    left: 885px;
+}
+.b6{
+    top: 0px;
+    left: 795px;
+}
+.b5{
+    top: 0px;
+    left: 705px;
+}
+.b4{
+    top: 0px;
+    left: 525px;
+}
+.b3{
+    top: 0px;
+    left: 435px;
+}
+
+.b2{
+    top: 0px;
+    left: 255px;
+}
+.b1{
+    top: 0px;
+    left: 75px;
+}
+.b8{
+    top: 0px;
+    left: 165px;
+}
+
+.button:active{
+    transform: translate(2px, 2px);
+    background-color: rgb(189, 224, 255);
+}
+.button1:active{
+    transform: translate(2px, 2px);
+    background-color: rgb(202, 255, 255);
+}
+.button2:active{
+    transform: translate(2px, 2px);
+    background-color: rgb(255, 197, 197);
+}
+.dbutton:active{
+    transform: translate(2px, 2px);
+    background-color: rgb(255, 255, 255);
+}
+.button_start:active{
+    transform: translate(2px, 2px);
+    background-color: red;
+}

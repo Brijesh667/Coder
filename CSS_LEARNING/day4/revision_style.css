@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+
+.dm{
+    height: 200px;
+    width: 100vw;
+    background-color: gray;
+    margin-top: 100px;
+    position: sticky;
+    top: 0px;
+}
+.d1{
+    
+    height: 10000px;
+    width: 100vw;
+    background-color: red;
+    margin-top: 40px;
+}

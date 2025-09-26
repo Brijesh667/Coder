@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano</title>
+  <link rel="stylesheet" href="./text1_style.css">
+</head>
+<body>
+  <div class="black">
+    <div class="button b1"></div>
+    <div class="button b2"></div>
+    <div class="button b3"></div>
+  </div>
+
+  <!-- Optional JavaScript for more control -->
+  <script>
+    const keys = document.querySelectorAll('.button');
+
+    keys.forEach(key => {
+      key.addEventListener('mousedown', () => {
+        key.classList.add('active');
+      });
+      key.addEventListener('mouseup', () => {
+        key.classList.remove('active');
+      });
+      key.addEventListener('mouseleave', () => {
+        key.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>

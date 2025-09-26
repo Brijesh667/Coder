@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    font-size: 4rem;
+    animation-name:movement ;
+    /* animation-name:any_name; we give a name of animation that we will use to animat */
+    animation-duration: 5s;
+    /* how much time take in one cycle */
+    animation-timing-function: linear;
+    /* animation-delay: 2s;  */
+    animation-iteration-count: infinite;
+    /* how much cycyle it will move */
+    /* animation-direction: alternate; */
+    /* what is the dirction of movement  */
+    animation-delay: 1s;
+    /* animation-delay:3s; waiting time  */
+
+    animation-fill-mode:both;
+    position: relative;
+     
+    border-radius: 50%;
+}
+
+@keyframes changespalling{
+   /* Initial position */
+    from{
+        /* top: 0px;
+        left: 0px; */
+        transform: translate(0px);
+        background-color: blue;
+    }
+/* finial position */
+    to{
+        /* top: 0px;
+        left: 1000px; */
+        transform: translate(1000px,500px);
+        background-color: red;
+
+    }
+}
+
+@keyframes movement {
+
+    0%{
+        transform: translate(0vw,0vh);
+
+    }
+
+    25%{
+        transform: translate(30vw,-30vh);
+        
+    }
+
+    50%{
+
+        transform: translate(60vw,0vh);
+    }
+   75%{
+        transform: translate(30vw,30vh);
+   }
+    100%{
+
+        transform: translate(0vw,0vh);
+    }
+    
+    
+}

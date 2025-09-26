@@ -1,0 +1,26 @@
+.container{
+    background-color: bisque;
+    width: 1000px;
+    height: 1000pxc;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.box{
+    display:inline-block;
+    height: 40vh;
+    width:350px;
+}
+.box1{
+    background-color: aquamarine;
+    position:fixed;
+   
+}
+.box2{
+    background-color: rgb(0, 0, 0);
+}
+.box3{
+    background-color: chartreuse;
+}
+.box4{
+    background-color: crimson;
+}

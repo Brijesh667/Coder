@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano Keyboard</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #eee;
+    }
+
+    .piano {
+      display: flex;
+      position: relative;
+    }
+
+    /* White keys */
+    .white {
+      width: 60px;
+      height: 250px;
+      background: white;
+      border: 1px solid black;
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* Black keys */
+    .black {
+      width: 40px;
+      height: 150px;
+      background: black;
+      position: absolute;
+      top: 0;
+      z-index: 2;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 0 0 3px 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="piano">
+    <!-- White keys -->
+    <div class="white">C</div>
+    <div class="white">D</div>
+    <div class="white">E</div>
+    <div class="white">F</div>
+    <div class="white">G</div>
+    <div class="white">A</div>
+    <div class="white">B</div>
+    <div class="white">C</div>
+    <div class="white">D</div>
+    <div class="white">E</div>
+    <div class="white">F</div>
+    <div class="white">G</div>
+    <div class="white">A</div>
+    <div class="white">B</div>
+
+    <!-- Black keys (positioned manually relative to white keys) -->
+    <div class="black" style="left: 45px;">C♯</div>
+    <div class="black" style="left: 105px;">D♯</div>
+
+    <div class="black" style="left: 225px;">F♯</div>
+    <div class="black" style="left: 285px;">G♯</div>
+    <div class="black" style="left: 345px;">A♯</div>
+
+    <div class="black" style="left: 465px;">C♯</div>
+    <div class="black" style="left: 525px;">D♯</div>
+
+    <div class="black" style="left: 645px;">F♯</div>
+    <div class="black" style="left: 705px;">G♯</div>
+    <div class="black" style="left: 765px;">A♯</div>
+  </div>
+</body>
+</html>

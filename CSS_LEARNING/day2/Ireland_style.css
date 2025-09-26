@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.first,.second,.third{
+    display: inline-block;
+    width: 33vw;
+    height: 100vh;
+}
+.first{
+    background-color: #169B62 ;
+}
+.second{
+    background-color: #ffffff;
+}
+.third{
+    background-color: #FF883E;
+}

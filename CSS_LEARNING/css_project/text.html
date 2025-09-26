@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Button (HTML + CSS only)</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Hide the checkbox */
+    #toggle {
+      display: none;
+    }
+
+    /* Style the button */
+    .btn {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+      font-size: 20px;
+      color: white;
+      background: green; /* Default color */
+      transition: background 0.3s;
+    }
+
+    /* When checkbox is checked → button turns red */
+    #toggle:checked + .btn {
+      background: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hidden checkbox + label acts as toggle -->
+  <input type="checkbox" id="toggle">
+  <label for="toggle" class="btn">Click</label>
+
+</body>
+</html>

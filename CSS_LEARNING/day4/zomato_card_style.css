@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.card{
+     
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 10px solid rgb(221, 221, 221);
+  
+    
+    
+}
+.box{
+    display: inline-block;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+.image{
+    position: relative;
+}
+.img{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+  
+}
+.off{
+    position: absolute;
+    color: white;
+    background-color: rgba(10, 8, 137, 0.4);
+    font-size: 30px;
+    bottom: 15px;
+    left: 5px;
+    border-radius: 5px;
+}
+
+.restaurant{
+
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.restaurant_name{
+   
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.rating{
+    box-sizing: border-box;
+    position: absolute;
+    height:25px;
+    right: 10px;
+    padding: 3px;
+    background-color: green;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+.food{
+    position: relative;
+    margin-bottom: 10px;
+   
+}
+.food_name{
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    font-weight: 100px;
+    
+}
+.price{
+
+    position: absolute;
+    right: 5px;
+   
+    
+}
+
+.location{
+    position: relative;  
+}
+
+.place{
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+
+}
+
+.distance{
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+}
+main{
+    margin-top: 400px;
+}
+
+header{
+    background-color: white;
+    width: 100vw;
+    height: 200px;
+}
+.first{
+    position: relative;
+    width: 100vw;
+    height: 72px;
+    
+}
+.head_box{
+    display: inline-block;
+    
+}
+.logo_img{
+    width: 127px;
+    height: 27px;
+    position: absolute;
+    left: 100px; 
+    top: 20px;
+}
+.mainhead{
+    display: inline-block;
+    position: relative;
+    width: 771px;
+    height: 72px;
+    padding: 17px 0px;
+}
+.search{
+    right: 50px;
+    position: absolute;
+    top: 20px;
+    left:500px;
+}
+#search_button{
+    width: 280px;
+    height: 52px; 
+    background-color: #ffffff;
+}
+
+.log{
+    position: absolute;
+    right:100px ;
+    font-size: 18px;
+    color: #696969;
+    width: 67px;
+    height: 40px;
+    padding: 8px;
+}
+
+.sign{
+    position: absolute;
+    right: 50px;
+    font-size: 18px;
+    color: #696969;
+    width: 79px;
+    height: 40px;
+    padding: 8px;
+
+}
+.second{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.d5{
+    display: inline-block;
+    position: relative;
+    width: 190px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.img2{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(202, 201, 201);
+    
+}
+.dining_image{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+
+}
+
+.text{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    font-family: Okra,Arial, Helvetica, sans-serif;
+  
+}
+.text2{
+    margin: auto;
+    padding-left: 5px;
+}
+#i1{
+    background-color: #E5F3F3;
+}
+#i2, #i3{
+    background-color: #f8f8f8;
+}
+#p2, #p3{
+    color: #696969;
+    
+}
+#p1{
+    color: #ef4f5f;
+}

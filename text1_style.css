@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.black {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 300px;
+    border: black solid 10px;
+    
+}
+
+.button {
+    display: inline-block;
+    height: 300px;
+    width: 100px;
+    background-color: black;
+    transition: transform 0.1s, background-color 0.1s;
+}
+
+/* CSS pressing effect */
+.button:active {
+    transform: translateY(10px);
+    background-color: rgb(60, 60, 60);
+}
+
+/* Extra class for JS version */
+.button.active {
+    transform: translateY(10px);
+    background-color: rgb(60, 60, 60);
+}
