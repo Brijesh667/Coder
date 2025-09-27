@@ -47,10 +47,6 @@ console.log(a1)
 
 //pop from start
 a1.shift()
-
-
-
-
 console.log(a1)
 
 delete a1[0]//this only delete value,, but empty sapce is ther
