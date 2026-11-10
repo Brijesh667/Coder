@@ -6,7 +6,7 @@ import pyperclip
 time.sleep(5)
 
 # Message with emojis
-message = "hey I hate you 😘💋🥰💞"
+message = "hey hey hey"
 
 # Copy the message to clipboard
 pyperclip.copy(message)
